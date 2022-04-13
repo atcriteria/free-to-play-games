@@ -1,5 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import './GamesContainer.css';
+import GamesCard from '../Card/GamesCard';
 
 const options = {
     method: 'get',
@@ -27,9 +29,12 @@ export default function GamesContainer(){
             })
     }, [])
     return(
-        <div>
-            Games get loaded here w/ axios
-            {console.log(state)}
+        <div className='games-container'>
+            {
+                state.map((data) => {
+                    return <GamesCard data={data} />
+                })
+            }
         </div>
     )
 }

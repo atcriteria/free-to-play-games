@@ -1,0 +1,13 @@
+.game-card {
+    margin: auto 2.5%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+.game-card img {
+    width: 100%;
+}
