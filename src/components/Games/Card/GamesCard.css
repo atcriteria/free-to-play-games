@@ -32,6 +32,19 @@
 .game-card-descriptors h1,h2 {
     margin: 0;
 }
+.game-card-descriptors h1 {
+    font-size: 2.4rem;
+}
+.game-card-descriptors h2 {
+    font-size: .8rem;
+}
+.game-card-descriptors-titles {
+    margin-top: 5%;
+}
+.game-card-descriptors p {
+    width: 80%;
+    margin-bottom: 10%;
+}
 
 .game-card img {
     width: 100%;
